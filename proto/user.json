@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "UNIQUE_USER_ID": {
+      "name": "USER_NAME",
+      "bio": "USER_BIO",
+      "createdAt": "USER_CREATION_DATE",
+      "profilePic": "https://firebasestorage.googleapis.com/PROFILE_PIC_URL",
+      "plantID": [
+        "UNIQUE_PLANT_ID_1",
+        "UNIQUE_PLANT_ID_2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "plants": {
+    "UNIQUE_PLANT_ID": {
+      "title": "PLANT_TITLE",
+      "description": "PLANT_DESCRIPTION",
+      "height": "PLANT_HEIGHT",
+      "price": "PLANT_PRICE",
+      "plantId": "UNIQUE_PLANT_ID",
+      "localisation": "",
+      "imageUrl": "https://firebasestorage.googleapis.com/UNIQUE_PLANT_URL",
+      "pot": "PLANT_POT",
+      "temperature": "PLANT_TEMPERATURE",
+      "like": []
+    }
+  }
+}
