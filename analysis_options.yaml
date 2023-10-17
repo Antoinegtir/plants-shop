@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: false
+    prefer_single_quotes: true
+    prefer_const_constructors: true
+    always_specify_types: true
+    prefer_if_null_operators: true
+    unnecessary_getters_setters: true
+    no_adjacent_strings_in_list: true
+    use_key_in_widget_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    sort_child_properties_last: true
