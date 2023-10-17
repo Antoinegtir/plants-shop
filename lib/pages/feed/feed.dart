@@ -72,7 +72,7 @@ class _FeedPlantPageState extends State<FeedPlantPage> {
             crossAxisCount: 2,
             padding: const EdgeInsets.only(left: 25, right: 25, top: 20),
             itemCount: plants?.length ?? 0,
-            mainAxisSpacing: 25,
+            mainAxisSpacing: 10,
             crossAxisSpacing: 25,
             itemBuilder: (BuildContext context, int index) {
               final DocumentSnapshot<Map<String, dynamic>> plantsDoc =

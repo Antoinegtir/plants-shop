@@ -49,12 +49,12 @@ class _CardPageState extends State<CardPage> {
           ),
         );
       },
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(20),
-        child: Stack(
-          alignment: Alignment.center,
-          children: <Widget>[
-            Container(
+      child: Stack(
+        alignment: Alignment.center,
+        children: <Widget>[
+          ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: Container(
               height: 294,
               color:
                   !localUser.getBool('darkmode')! ? Colors.white : Colors.black,
@@ -65,7 +65,10 @@ class _CardPageState extends State<CardPage> {
                   sh(10),
                   Hero(
                     tag: plant.imageUrl ?? '',
-                    child: CachedNetworkImage(imageUrl: plant.imageUrl!)
+                    child: CachedNetworkImage(
+                      imageUrl: plant.imageUrl!,
+                      height: 175,
+                    ),
                   ),
                   sh(10),
                   Text(
@@ -126,13 +129,13 @@ class _CardPageState extends State<CardPage> {
                 ],
               ),
             ),
-            if (isLiked)
-              LottieBuilder.asset(
-                'assets/animation/like.json',
-                fit: BoxFit.cover,
-              ),
-          ],
-        ),
+          ),
+          if (isLiked)
+            LottieBuilder.asset(
+              'assets/animation/like.json',
+              fit: BoxFit.cover,
+            ),
+        ],
       ),
     );
   }
