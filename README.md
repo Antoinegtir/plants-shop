@@ -18,7 +18,7 @@
 
 | Plant                                            | Home                                              |
 | ------------------------------------------------ | ------------------------------------------------- |
-| <img src="./screenshots/plant.png" width="200"/> | <img src="./screenshots/signup.png" width="200"/> |
+| <img src="./screenshots/plant.png" width="200"/> | <img src="./screenshots/home.png" width="200"/> |
 
 ### Demo Preview Darkmode
 
@@ -26,9 +26,9 @@
 | ----------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
 | <img src="./screenshots/blackplant.png" width="200"/> | <img src="./screenshots/blackpost.png" width="200"/> | <img src="./screenshots/blacksignup.png" width="200"/> | <img src="./screenshots/blacktheme.png" width="200"/> |
 
-| Profile                                                 | Post                                                 | Home                                                   | INDEX                                                 |
+| Profile                                                 | Post                                                 | Home                                                   | Test                                                 |
 | ------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
-| <img src="./screenshots/blackprofile.png" width="200"/> | <img src="./screenshots/blackpost.png" width="200"/> | <img src="./screenshots/blacksignup.png" width="200"/> | <img src="./screenshots/blacktheme.png" width="200"/> |
+| <img src="./screenshots/blackprofile.png" width="200"/> | <img src="./screenshots/blackpost.png" width="200"/> | <img src="./screenshots/blackhome.png" width="200"/> | <img src="./screenshots/blacktheme.png" width="200"/> |
 
 ## Wiki Firebase
 
