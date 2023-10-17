@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "223055643433",
+    "project_id": "ui-challenge-21603",
+    "storage_bucket": "ui-challenge-21603.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223055643433:android:840d91224b1656cd8c6d38",
+        "android_client_info": {
+          "package_name": "com.example.ui_challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223055643433-n6se82tbfrrab9k1tkodk3nj4e2hep7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWFFwC3qVSn5F7iZC8aFnsHqHttAFjgxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223055643433-n6se82tbfrrab9k1tkodk3nj4e2hep7o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "223055643433-0pdpb4thp760n50svguidbnkb5u8lt5q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ui-challenge.example"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
